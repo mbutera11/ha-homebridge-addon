@@ -1,0 +1,10 @@
+# https://developers.home-assistant.io/docs/add-ons/configuration#add-on-dockerfile
+build_from:
+  amd64: "homebridge/homebridge:latest"
+labels:
+  org.opencontainers.image.title: "Homebridge Addon"
+  org.opencontainers.image.description: "Homebridge addon support for home assistant"
+  org.opencontainers.image.source: "https://github.com/mbutera11/ha-homebridge-addon"
+  org.opencontainers.image.licenses: "Apache License 2.0"
+args:
+  TEMPIO_VERSION: "2021.09.0"

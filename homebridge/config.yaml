@@ -1,0 +1,16 @@
+# https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
+name: Homebridge
+version: "1.2.0"
+slug: homebridge
+description: Homebridge addone for Homeassistant
+url: "https://github.com/mbutera11/ha-homebridge-addon"
+arch:
+  - armhf
+  - armv7
+  - aarch64
+  - amd64
+  - i386
+init: false
+map:
+  - share:rw
+schema: false
